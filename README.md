@@ -45,7 +45,7 @@ A aplicação segue o padrão:
 
 No terminal, digite os seguintes comandos:
 
- 1. cd Futebol
+ 1. cd Gerenciamento
  
  2. python -m venv venv
 
