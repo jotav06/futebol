@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ atleta.nome }}</h1>
+<ul>
+    <li>Idade: {{ atleta.idade }}</li>
+    <li>Categoria: {{ atleta.categoria }}</li>
+    <li>Posição: {{ atleta.posicao }}</li>
+    <li>Pé preferido: {{ atleta.pe_preferido }}</li>
+    <li>Gols: {{ atleta.gols }}</li>
+    <li>Assistências: {{ atleta.assistencias }}</li>
+</ul>
+{% endblock %}

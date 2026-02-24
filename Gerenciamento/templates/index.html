@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Bem-vindos! </h1>
+
+<h3>Destaques</h3>
+<div class="row">
+    {% for atleta in atletas %}
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5>{{ atleta.nome }}</h5>
+                <p>{{ atleta.posicao }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

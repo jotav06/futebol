@@ -1,0 +1,22 @@
+body {
+    background-color: #0b1f3a;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+    color: #c0c0c0;
+}
+
+.navbar, .header {
+    background-color: #081426 !important;
+}
+
+.btn-primary {
+    background-color: #1f3f75;
+    border-color: #1f3f75;
+}
+
+.card {
+    background-color: #142b52;
+    border: 1px solid #c0c0c0;
+}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Títulos</h1>
+
+<ul>
+    {% for t in titulos %}
+    <li>{{ t.nome }} - {{ t.ano }} ({{ t.categoria }})</li>
+    {% endfor %}
+</ul>
+{% endblock %}

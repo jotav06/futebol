@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Atletas</h1>
+
+<table class="table">
+    <tr>
+        <th>Nome</th>
+        <th>Categoria</th>
+        <th>Posição</th>
+        <th></th>
+    </tr>
+    {% for atleta in atletas %}
+    <tr>
+        <td>{{ atleta.nome }}</td>
+        <td>{{ atleta.categoria }}</td>
+        <td>{{ atleta.posicao }}</td>
+        <td><a href="/atletas/{{ atleta.id }}">Ver</a></td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

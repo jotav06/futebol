@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Seletivas</h1>
+
+<ul>
+    {% for s in seletivas %}
+    <li>{{ s.data }} - {{ s.categoria }} - {{ s.descricao }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

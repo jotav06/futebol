@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Agenda de Jogos</h1>
+
+<ul>
+    {% for jogo in jogos %}
+    <li>{{ jogo.data }} - {{ jogo.adversario }} ({{ jogo.campeonato }})</li>
+    {% endfor %}
+</ul>
+{% endblock %}
